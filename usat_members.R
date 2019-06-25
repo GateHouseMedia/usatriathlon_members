@@ -256,7 +256,6 @@ gather_members_by_state %>%
 
 # triathletes per capita
 options(tigris_use_cache = TRUE)
-census_api_key(***REMOVED***, install = TRUE, overwrite=TRUE)
 
 us_components <- get_estimates(geography = "state", product = "components")
 
